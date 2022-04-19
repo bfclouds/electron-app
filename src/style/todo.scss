@@ -1,0 +1,17 @@
+.todo-page {
+  padding: 20px;
+  .ProseMirror {
+    background: #fff;
+    border-radius: 5px;
+    min-height: 300px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    &:focus-visible {
+      // outline: none;
+      // box-shadow: 0 0 0 2px #75ccff;
+    }
+  }
+  .normal-input-container {
+    margin: 20px 0;
+  }
+}
